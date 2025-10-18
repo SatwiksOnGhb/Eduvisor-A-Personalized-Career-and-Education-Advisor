@@ -9,6 +9,7 @@ import Quiz from './components/Quiz';
 import NearbyColleges from './components/NearbyColleges';
 import CareerPaths from './components/CareerPaths';
 import Timeline from './components/Timeline';
+import Resources from './components/Resources'; // The new component
 import Modal from './components/Modal';
 import './index.css';
 
@@ -18,7 +19,7 @@ const getAllUsers = () => {
   return users ? JSON.parse(users) : {};
 };
 
-// Helper function to find nodes in the career tree
+// Helper function to find nodes in the career tree (RESTORED)
 function findNodeByTitle(node, title) {
   if (node.t === title) return node;
   if (node.c) {
@@ -170,6 +171,8 @@ function App() {
             />
           )}
           {activeTab === 'timeline' && <Timeline />}
+          {/* Add the new component to the render logic */}
+          {activeTab === 'resources' && <Resources />}
         </main>
       </div>
       <ProfilePanel isOpen={isProfilePanelOpen} onClose={() => setProfilePanelOpen(false)} userProfile={currentUser} onUpdateProfile={handleUpdateProfile} onLogout={handleLogout} />
@@ -181,3 +184,4 @@ function App() {
 }
 
 export default App;
+

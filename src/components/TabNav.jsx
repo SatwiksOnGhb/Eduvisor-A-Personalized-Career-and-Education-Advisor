@@ -1,10 +1,13 @@
 export default function TabNav({ activeTab, onTabClick }) {
-    const tabs = ['quiz', 'courses', 'colleges', 'timeline'];
+    // Added 'resources' to the tabs array
+    const tabs = ['quiz', 'courses', 'colleges', 'timeline', 'resources'];
     const tabLabels = {
         quiz: '🧠 Aptitude Quiz',
         courses: '🗺️ Career Paths',
         colleges: '🏫 Nearby Colleges',
         timeline: '🗓️ Timeline Tracker',
+        // Added the label for the new tab
+        resources: '📚 E-Library & Skills',
     };
 
     return (
