@@ -40,7 +40,7 @@ Maintainers have the right and responsibility to remove, edit, or reject comment
 
 # Reporting
 
-If you are subject to or witness unacceptable behavior, or have any other concerns, please report it by contacting the project maintainers at: shreesha8406@gmail.com , adithyaparameswaran72@gmail.com .
+If you are subject to or witness unacceptable behavior, or have any other concerns, please report it by contacting the project maintainers at: shreesha8406@gmail.com , adithyaparameswaran72@gmail.com,satwikray.2006@gmail.com .
 
 All reports will be handled with discretion and sensitivity.  
 
